@@ -1,0 +1,10 @@
+tr:nth-child(odd), tr:nth-child(odd) td {
+    background: rgb(241, 241, 241);
+}
+table, td, th {
+    border: solid 1px rgb(221, 221, 221);
+}
+tr:hover {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
