@@ -1,0 +1,22 @@
+@import "https://use.fontawesome.com/releases/v5.10.2/css/all.css";
+
+body {
+    text-align: center;
+}
+
+a {
+    display: block;
+    height: 25px;
+    width: 100px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    padding-top: 5px;
+}
+.green {
+    background: green;
+}
+
+.yellow {
+    background: orange;
+}
