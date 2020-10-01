@@ -1,0 +1,6 @@
+p {
+    width: 200px;
+    border: solid 5px green;
+    background: rgb(64, 224, 208);
+    margin: auto;
+}
