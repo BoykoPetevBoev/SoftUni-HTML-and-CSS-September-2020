@@ -1,0 +1,18 @@
+.gallery {
+    width: 1100px;
+    background-color: rgb(230, 230, 230);
+    margin: 10px auto;
+    padding: 50px;
+}
+
+.gallery li {
+    border: solid 0.4rem black;
+    display: inline-block;
+    margin: 50px 10px;
+    background-color: white;
+}
+
+.gallery li img {
+    margin: 10px;
+    max-width: 300px;
+}
