@@ -1,0 +1,18 @@
+body {
+    width: 1500px;
+    margin: auto;
+    background: rgb(238, 238, 238);
+}
+
+article, aside {
+    display: inline-block;
+    width: 700px;
+}
+
+aside {
+    vertical-align: top;
+}
+
+img {
+    max-width: 700px;
+}
