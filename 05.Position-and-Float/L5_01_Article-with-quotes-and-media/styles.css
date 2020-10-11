@@ -21,7 +21,7 @@ body {
     float: left;
 }
 
-.aside {
+blockquote {
     font-style: italic;
     float: right;
     width: 50%;

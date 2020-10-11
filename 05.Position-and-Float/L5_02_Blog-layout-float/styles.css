@@ -47,7 +47,8 @@ img {
     float: left;
 }
 
-.aside {
+blockquote {
+    font-family: Georgia, serif;
     font-style: italic;
     float: right;
     width: 50%;
