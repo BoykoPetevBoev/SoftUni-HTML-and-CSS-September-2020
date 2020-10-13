@@ -1,0 +1,27 @@
+body {
+    background: rgb(238, 238, 238);
+}
+section {
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 500px;
+    height: 700px;
+    margin: auto;
+}
+div {
+    height: 400px;
+}
+a {
+    background: rgb(0, 153, 0);
+    text-decoration: none;
+    color: black;
+
+}
+h1 {
+    font-family: Georgia, serif;
+    font-size: 1em;
+    
+}
+img {
+    position: absolute;
+}
