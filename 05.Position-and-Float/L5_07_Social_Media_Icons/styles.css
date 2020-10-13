@@ -29,3 +29,7 @@ a {
 i {
     vertical-align: middle;
 }
+
+a:hover {
+    color: blue;
+}
