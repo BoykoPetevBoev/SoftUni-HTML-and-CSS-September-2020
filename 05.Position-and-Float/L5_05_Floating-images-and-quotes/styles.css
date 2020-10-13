@@ -1,0 +1,38 @@
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Georgia, serif;
+    width: 1000px;
+    margin: auto;
+    background-color: rgb(238, 238, 238);
+    border: solid 2px;
+    padding: 30px 50px;
+}
+header {
+    border-bottom: solid 4px;
+}
+img {
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
+
+.site-title {
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.img-first {
+    float: right;
+}
+.img-second {
+    float: left;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+    font-style: italic;
+    float: right;
+    width: 50%;
+}
