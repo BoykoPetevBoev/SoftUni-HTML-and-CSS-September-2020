@@ -1,0 +1,31 @@
+body {
+    background: rgb(238, 238, 238);
+    font-family: Georgia, serif;
+    max-width: 1000px;
+    margin: auto;
+}
+
+header {
+    border-bottom: solid 3px black;
+    width: 100%;
+}
+header p {
+    font-size: xx-large;
+}
+img {
+    background: rgb(255, 255, 255);
+}
+
+a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
+blockquote {
+    font-family: Georgia, serif;
+}
+
+div.page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
