@@ -1,0 +1,19 @@
+header {
+    border-bottom: solid 2px rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+}
+
+header ul li {
+    list-style: none;
+}
+
+a {
+    color: rgb(0, 153 , 0);
+}
