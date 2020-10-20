@@ -1,0 +1,29 @@
+body {
+    background: rgb(238, 238, 238);
+    display: flex;
+    max-width: 500px;
+    margin: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+div.cards-layout {
+    max-height: 1500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+div.cards-layout div {
+    max-width: 300px;
+    margin: 10px;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 0 10px gray;
+}
+
+div.cards-layout div img {
+    max-width: 100%;
+}
