@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    color: rgb(75, 75, 75);
+    font-family: "Lato", sans-serif;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: "Montserrat", sans-serif;
+
+}
+header {
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    padding: 5px 60px;
+}
+
+header img {
+    max-height: 70%;
+}
+
+header ul {
+    margin: 0;
+    display: flex;
+    list-style: none;
+    height: 100%;
+}
+
+header ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: #54546d;
+    padding: 20px 6px;
+    display: block;
+    text-transform: uppercase;
+
+}
+
+.calculator-icon {
+    position: absolute;
+    top: 38px;
+    left: -69px;
+}
+
+.taxes-holder {
+    max-width: 100%;
+    position: relative;
+    background: linear-gradient(180deg,#54546d 59%,#fff 50%);
+    padding-top: 50px;
+}
+
+.taxes-holder h1 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.taxes-holder ul {
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    max-width: 100%;
+    margin-bottom: 96px;
+    position: relative;
+}
+
+.taxes-holder li {
+    box-shadow: 0 3px 4px 0 rgba(0,0,0,.14), 0 3px 3px -2px rgba(0,0,0,.12), 0 1px 8px 0 rgba(0,0,0,.2);
+    border-radius: 8px;
+    background-color: #fff;
+    text-align: center;
+    margin: 10px;
+    width: 400px;
+
+}
+
+.design{
+    background: linear-gradient(to left,#4cd781,#029a3c);
+}
+.fundamental{
+    background: linear-gradient(to left,#629bd0,#4c6b87);
+}
+.professional{
+    background: linear-gradient(to left,#8d7ee2,#4a37a5);
+}
+.price {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    vertical-align: middle;
+    padding: 10px;
+    height: 100px;
+    border-radius: 0 0 8px 8px;
+}
+.price span {
+    font-size: 20px;
+    font-weight: bold;
+}
+.price div {
+    padding-top: 20px;
+}
+.tax-info-holder {
+    padding: 10px;
+    height: 200px;
+}
+
+.taxes-holder a {
+    display: inline-block;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 20px;
+    line-height: 19px;
+    color: #fff;
+    background-color: #9a5dc6;
+    padding: 14px 32px;
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12), 0 2px 4px -1px rgba(0,0,0,.2);
+}
+
+.table-holder {
+    padding: 0 200px;
+    margin-bottom: 96px;
+    max-width: 100%;
+}
+.fa-check{
+    color: rgb(14, 186, 14);
+}
+.fa-times {
+    color: red;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+table tr {
+    padding: 10px;
+    height: 50px;
+}
+
+table tr:nth-child(odd) {
+    background-color: #f8f8f8;
+}
+table tr:nth-child(even) {
+    background-color: #e6e6e6;
+}
+table tr td {
+    min-width: 150px;
+    text-align: center;
+}
+table tr td:first-child {
+    text-align: left;
+    padding-left: 20px;
+}
+
+
+.bank-holder {
+    padding: 0 100px;
+    margin-bottom: 96px;
+    max-width: 100%;
+    display: flex;
+}
+.img-holder {
+    padding-top: 50px;
+
+}
+.bank-info {
+    padding-right: 30px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #54546D;
+    color: #888298;
+}
+
+
+
+body > section.taxes-holder > ul > li:nth-child(2) > div.fundamental.price > div:nth-child(1){
+    border-right: solid 1px white;
+    padding-right: 10px;
+}
+
+body > section.taxes-holder > ul > li:nth-child(3) > div.professional.price > div:nth-child(1){
+    border-right: solid 1px white;
+    padding-right: 10px;
+}
+
